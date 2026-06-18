@@ -6,6 +6,10 @@ Google Sheets add-on for importing statistics from **Yandex Metrica** and **Yand
 
 https://militerte.github.io/ads-stat/privacy-policy
 
+## Terms of Service
+
+https://militerte.github.io/ads-stat/terms-of-service
+
 ## User guide (RU)
 
 https://militerte.github.io/ads-stat/user-guide
