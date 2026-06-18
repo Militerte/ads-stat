@@ -1,0 +1,45 @@
+{
+  "timeZone": "Europe/Moscow",
+  "dependencies": {
+    "libraries": [
+      {
+        "userSymbol": "OAuth2",
+        "version": "43",
+        "libraryId": "1B7FSrk5Zi6L1rSxxTDgDEUsPzlukDsi4KGuTMorsTQHhGBzBkMun4iDF",
+        "developmentMode": false
+      }
+    ]
+  },
+  "exceptionLogging": "STACKDRIVER",
+  "runtimeVersion": "V8",
+  "oauthScopes": [
+    "https://www.googleapis.com/auth/spreadsheets.currentonly",
+    "https://www.googleapis.com/auth/script.external_request",
+    "https://www.googleapis.com/auth/script.container.ui",
+    "https://www.googleapis.com/auth/script.locale",
+    "https://www.googleapis.com/auth/script.scriptapp",
+    "https://www.googleapis.com/auth/userinfo.email"
+  ],
+  "urlFetchWhitelist": [
+    "https://api-metrika.yandex.net/",
+    "https://api.direct.yandex.com/",
+    "https://oauth.yandex.ru/",
+    "https://login.yandex.ru/"
+  ],
+  "addOns": {
+    "common": {
+      "name": "Ads stat",
+      "logoUrl": "https://lh3.googleusercontent.com/bWCJEt8GbtWJNqY3lOep3dRboMeu5QYLVqnyFkjLZRln-RCFAIqBSuDHai5H8qc5Fio",
+      "layoutProperties": {
+        "primaryColor": "#1A73E8",
+        "secondaryColor": "#E8F0FE"
+      },
+      "useLocaleFromApp": true
+    },
+    "sheets": {
+      "homepageTrigger": {
+        "runFunction": "onHomepage"
+      }
+    }
+  }
+}

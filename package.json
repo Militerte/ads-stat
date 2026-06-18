@@ -1,0 +1,18 @@
+{
+  "name": "yandex-sheets-addon",
+  "private": true,
+  "description": "Google Sheets add-on: Yandex Metrica & Direct (OAuth)",
+  "scripts": {
+    "check:clasp": "node scripts/check-clasp.js",
+    "login": "node scripts/run-clasp.js login",
+    "push": "npm run check:clasp && node scripts/run-clasp.js push --force",
+    "push:force": "npm run check:clasp && node scripts/run-clasp.js push --force",
+    "pull": "node scripts/run-clasp.js pull",
+    "open": "node scripts/run-clasp.js open",
+    "status": "node scripts/run-clasp.js status",
+    "deploy": "node scripts/run-clasp.js deploy"
+  },
+  "devDependencies": {
+    "@google/clasp": "^3.3.0"
+  }
+}
